@@ -1,0 +1,46 @@
+body{
+    background-color: #1b262c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.clockface{
+    display: flex;
+    border-radius: 50%;
+    background-color: #ff5722;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+
+}
+
+.hand{
+    height: 15px;
+    width: 250px;
+    background-color: black;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    transform-origin: 100%;
+    text-align: center;
+}
+
+.hour{
+    background-color: #0f4c75;
+}
+
+.minute{
+    background-color: #3282b8;
+}
+
+.second{
+    background-color: #bbe1fa;
+}
