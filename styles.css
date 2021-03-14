@@ -1,29 +1,29 @@
 body{
-    background-color: #1b262c;
+    background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1{
     text-align: center;
-    color: white;
+    color: #000;
     margin-bottom: 100px;
 }
 
 .clockface{
     display: flex;
     border-radius: 50%;
-    background-color: #ff5722;
+    background-color: #000;
     width: 500px;
     height: 500px;
     margin: auto;
     align-items: center;
-
+    box-shadow: 0 0 0 20px #009994;
 }
 
 .hand{
     height: 15px;
     width: 250px;
-    background-color: black;
+    background-color: #009994;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
     position: absolute;
@@ -33,14 +33,65 @@ h1{
     text-align: center;
 }
 
-.hour{
-    background-color: #0f4c75;
+.num{
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    background-color: black;
+    font-size: 3.5rem;
 }
 
-.minute{
-    background-color: #3282b8;
+.twelve{
+    transform: translate(163px, -235px);   
 }
 
-.second{
-    background-color: #bbe1fa;
+.three{
+    transform: translate(460px, -39px);   
+}
+
+.nine{
+    transform: translate(-25px, -39px);
+}
+
+.six{
+    transform: translate(225px, 180px);
+}
+
+.ticks{
+    position: absolute;
+    height: 35px;
+    width: 10px;
+    background-color: white;
+}
+
+.one{
+    transform: translate(354px, -206px) rotate(30deg);
+}
+
+.two{
+    transform: translate(450px, -110px) rotate(57deg);
+}
+
+.four{
+    transform: translate(450px, 110px) rotate(120deg); 
+}
+
+.five{
+    transform: translate(354px, 206px) rotate(147deg);
+}
+
+.seven{
+    transform: translate(146px, 210px) rotate(30deg);
+}
+
+.eight{
+    transform: translate(44px, 116px) rotate(57deg);
+}
+
+.ten{
+    transform: translate(44px, -116px) rotate(120deg);
+}
+
+.eleven{
+    transform: translate(143px, -210px) rotate(149deg);
 }
